@@ -1,9 +1,6 @@
 package test3;
 
-import test3.collectionTest.Util;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 public class Student

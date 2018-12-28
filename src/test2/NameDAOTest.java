@@ -21,7 +21,7 @@ public class NameDAOTest
             nameDao.removeFromList(list, -1);
         } catch (IllegalArgumentException e)
         {
-            e.printStackTrace();
+            System.err.println("越下界情况");
         }
 
         try
@@ -29,7 +29,7 @@ public class NameDAOTest
             nameDao.removeFromList(list, 6);
         } catch (IllegalArgumentException e)
         {
-            e.printStackTrace();
+            System.err.println("越上界情况");
         }
 
         try

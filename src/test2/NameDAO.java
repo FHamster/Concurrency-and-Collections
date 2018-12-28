@@ -10,6 +10,6 @@ public interface NameDAO
 //在列表中搜索到与name相同的项目，就返回该name所在的序号，找不到返回-1。
     public int searchName(List nameList, String name);
 
-//根据指定id，从列表中移除指定的项目，如果id指定错误(负数或者超出列表最大值)抛出IllegalArgumentException异常，移除成功返回true
+//根据指定id，从列表中移除指定的项目，如果id指定错误(负数或者超出列表最大值)-，移除成功返回true
     public boolean removeFromList(List nameList, int id);
 }

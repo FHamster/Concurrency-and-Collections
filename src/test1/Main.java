@@ -13,11 +13,11 @@ public class Main
 
         for (int i = 0; i < x.length; i++)
         {
-            System.out.println("Please input the " + (i + 1) + " integer:");
-            String inputInt = null;
-            inputInt = inputScan.nextLine();
             try
             {
+                System.out.println("Please input the " + (i + 1) + " integer:");
+                String inputInt = null;
+                inputInt = inputScan.nextLine();
                 x[i] = Integer.parseInt(inputInt);
             } catch (Exception e)
             {

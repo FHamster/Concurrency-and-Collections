@@ -40,7 +40,7 @@ public class StudentV2Test
         Collections.shuffle(stuV2list);
 
         //(8)使用List的removeAll方法，从studentList中移除otherList。
-        stuV2list.removeAll(stuV2list);
+        otherList.removeAll(stuV2list);
 
         //(10)将studentList转换为数组。
         StudentV2[] tmpArr = new StudentV2[stuV2list.size()];
